@@ -25,3 +25,11 @@ function More() {
     var simple_Math = (1 +2) * 10 / 2 -5;
     document.getElementById("More").innerHTML = "(1 + 2) * 10 / 2 - 5 = " + simple_Math;
 }
+
+var X = 5
+X++
+document.write (X);
+
+var Y = 5.25
+Y--
+document.write (Y);
