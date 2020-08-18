@@ -1,5 +1,9 @@
 alert("This is HTML3");
 
+function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
+  }
+
 function addition_Function() {
     var addition = 2 + 2;
     document.getElementById("Math").innerHTML = "2 + 2 = " + addition;
