@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        
+        <script src="Basic_JavaScript_6.js"></script>"
+    </header>
+<body>
+
+<p>Riders must be at least 52 centimeters tall to ride</p>
+<input id="height" value="52" />
+<button onclick="Ride_Function()">Click here</button>
+<p id="Ride"></p>
+
+<button onclick="myFunction()">Click here.</button>
+<p id="Keywords_and_Constructors"></p>
+
+<button onclick="">Click here</button>
+<p id ="New_and_This"></p>
+
+
+<p id="demo"></p>
+
+<script>
+// Constructor function for Person objects
+function Person(first, last, age, eye) {
+  this.firstName = first;
+  this.lastName = last;
+  this.age = age;
+  this.eyeColor = eye;
+}
+
+// Create a Person object
+// I wrote Float as my restricted words in place of the 50 and the line of code did not work
+var myFather = new Person("John", "Doe", 50, "blue");
+
+// Display age
+document.getElementById("demo").innerHTML =
+"My father is " + myFather.age + "."; 
+</script>
+
+<p id="Counting" onclick="count_Function()">Click here.</p>
+<script src="Basic_JavaScript_6.js"></script>
+
+
+<p id="Nested_Function" onclick=""></p>
+
+</body>
+</html>
